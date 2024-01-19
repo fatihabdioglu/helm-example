@@ -4,7 +4,6 @@ metadata:
   labels:
     app: webapp-color-wl10
   name: webapp-color-wl10
-  namespace: default
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
