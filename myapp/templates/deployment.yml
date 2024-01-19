@@ -6,7 +6,7 @@ metadata:
   name: webapp-color-wl10
   namespace: default
 spec:
-  replicas: 2
+  replicas: {{ values.replicaCount }}
   selector:
     matchLabels:
       app: webapp-color-wl10
