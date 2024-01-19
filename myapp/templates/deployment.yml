@@ -20,4 +20,4 @@ spec:
         name: webapp-color-wl10
         env:
         - name: APP_COLOR
-          value: green
+          value: {{ .Values.color }}
