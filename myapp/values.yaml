@@ -1,8 +1,8 @@
 # Default values for myapp.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-
-replicaCount: 1
+color: "red"
+replicaCount: 4
 
 image:
   repository: nginx
